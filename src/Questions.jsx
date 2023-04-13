@@ -10,7 +10,7 @@ const Questions = ({ questions }) => {
 
   return (
     <section className="container">
-      <h1>questions</h1>
+      <h1>questions to ChatGPT</h1>
       {questions.map((question) => {
         return (
           <SingleQuestion
