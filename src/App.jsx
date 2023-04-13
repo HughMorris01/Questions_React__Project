@@ -4,11 +4,10 @@ import Questions from './Questions';
 
 const App = () => {
   const [questions, setQuestions] = useState(data);
-  const [activeId, setActiveId] = useState(null);
 
   return (
     <main>
-      <Questions questions={questions} activeId={activeId} />
+      <Questions questions={questions} />
     </main>
   );
 };
